@@ -1,0 +1,33 @@
+day 1 
+Created and activated the virtual environment using 
+python3 -m venv .venv
+source .venv/bin/activate
+
+installed FastAPI
+python -m pip install --upgrade pip
+python -m pip install "fastapi[standard]"
+
+ran the server using 
+fastapi dev main.py
+
+Your API
+Returns your greeting as JSON.
+http://127.0.0.1:8000/
+
+Interactive API docs
+Try endpoints directly in your browser.
+http://127.0.0.1:8000/docs
+
+About endpoint
+Returns the project information.
+http://127.0.0.1:8000/about
+
+Task	                    Command
+Activate environment	    source .venv/bin/activate
+Install a package	        python -m pip install package-name
+Start development server    fastapi dev main.py
+See installed packages	    python -m pip list
+Leave environment	        deactivate
+
+Saved dependencies using
+python -m pip freeze > requirements.txt
