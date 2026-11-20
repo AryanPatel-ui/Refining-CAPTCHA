@@ -31,3 +31,7 @@ Leave environment	        deactivate
 
 Saved dependencies using
 python -m pip freeze > requirements.txt
+
+
+
+learned that gpt can make small amount of dataset for ml models 
